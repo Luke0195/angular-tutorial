@@ -10,5 +10,5 @@ import { HousingLocation } from '../models/housinglocation';
   styleUrl: './housing-location.component.scss',
 })
 export class HousingLocationComponent {
-  @Input({ required: true }) housingLocation!: HousingLocation;
+  @Input() housingLocation!: HousingLocation;
 }
